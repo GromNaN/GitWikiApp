@@ -2,6 +2,9 @@ homepage:
     pattern:  /
     defaults: { _controller: GitWikiBundle:Wiki:index }
 
+hello:
+    resource: @HelloBundle/Resources/config/routing.yml
+
 gitwiki:
     resource: @GitWikiBundle/Resources/config/routing.xml
     prefix:   /wiki

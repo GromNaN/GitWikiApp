@@ -15,6 +15,7 @@ class AppKernel extends Kernel
             new Symfony\Bundle\ZendBundle\ZendBundle(),
             
             // register your bundles
+            new Sensio\HelloBundle\HelloBundle(),
             new Git\WikiBundle\GitWikiBundle(),
         );
 
