@@ -1,0 +1,6 @@
+[submodule "src/Git/WikiBundle"]
+	path = src/Git/WikiBundle
+	url = git@github.com:GromNaN/GitWikiBundle.git
+[submodule "src/Git/Core"]
+	path = src/Git/Core
+	url = git@github.com:GromNaN/php-git-repo.git

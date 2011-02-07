@@ -36,3 +36,9 @@ twig.config:
 #    host:       smtp.gmail.com
 #    username:   xxxxxxxx
 #    password:   xxxxxxxx
+
+gitwiki.config:
+    dir:          "%kernel.root_dir%/symfony-docs"
+    debug:        false
+    executable:   /opt/local/bin/git
+    index:        index.rst
