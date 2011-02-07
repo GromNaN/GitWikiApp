@@ -2,3 +2,6 @@
 /vendor_full/
 /app/cache/*
 /app/logs/*
+/app/wiki/*
+/nbproject
+/catalog.xml
