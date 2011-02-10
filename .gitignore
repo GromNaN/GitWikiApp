@@ -4,5 +4,7 @@
 /app/logs/*
 /app/wiki/*
 /nbproject
+/.project
 /catalog.xml
 /vendor_full
+.tmp*
