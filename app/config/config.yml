@@ -1,4 +1,4 @@
-app.config:
+framework:
     charset:       UTF-8
     error_handler: null
     csrf_protection:
@@ -13,7 +13,7 @@ app.config:
         auto_start:     true
 
 # Twig Configuration
-twig.config:
+twig:
     debug:            %kernel.debug%
     strict_variables: %kernel.debug%
 
@@ -37,8 +37,12 @@ twig.config:
 #    username:   xxxxxxxx
 #    password:   xxxxxxxx
 
-gitwiki.config:
+git_wiki:
     dir:          "%kernel.root_dir%/symfony-docs"
     debug:        false
     executable:   /opt/local/bin/git
     index:        index.rst
+    filter:
+        raw_text:     ~
+
+#gitwiki.filter:

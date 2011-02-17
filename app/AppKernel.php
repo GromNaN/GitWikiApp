@@ -1,7 +1,7 @@
 <?php
 
 use Symfony\Component\HttpKernel\Kernel;
-use Symfony\Component\DependencyInjection\Loader\LoaderInterface;
+use Symfony\Component\Config\Loader\LoaderInterface;
 
 class AppKernel extends Kernel
 {
@@ -13,7 +13,7 @@ class AppKernel extends Kernel
 
             // enable third-party bundles
             new Symfony\Bundle\ZendBundle\ZendBundle(),
-            
+
             // register your bundles
             new Sensio\HelloBundle\HelloBundle(),
             new Git\WikiBundle\GitWikiBundle(),
@@ -31,7 +31,7 @@ class AppKernel extends Kernel
         return __DIR__;
     }
 
-    public function registerContainerConfiguration(LoaderInterface $loader)
+    function registerContainerConfiguration(LoaderInterface $loader)
     {
         // use YAML for configuration
         // comment to use another configuration format
