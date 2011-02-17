@@ -3,6 +3,7 @@
 /app/cache/*
 /app/logs/*
 /app/wiki/*
+/app/symfony-docs
 /nbproject
 /.project
 /catalog.xml
